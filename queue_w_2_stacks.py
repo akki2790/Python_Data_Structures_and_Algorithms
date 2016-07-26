@@ -1,4 +1,4 @@
-class 2squese():
+class squese():
     def __init__(self):
         self.instack=[]
         self.outstack=[]
