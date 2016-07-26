@@ -18,6 +18,14 @@ def dig_sum_rec(n):
 
 print dig_sum_rec(4321)
 
+####################
+
+def sum_func_rec1(n):
+    if len(str(n))==1:
+        return n
+    else:
+        return n%10+sumfunc(n/10)
+
 
 #############
 
@@ -34,3 +42,6 @@ print word_split("themanran",["the","ran","man"])
 print word_split("themanran",["clown","ran","man"])
 
 print word_split("ilovedogsjohn",["i","love","am","dogs","a","lover","john"])
+
+###############
+
