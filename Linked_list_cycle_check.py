@@ -1,15 +1,3 @@
-class Node():
-    def __init__(self,value):
-        self.value=value
-        self.nextNode=None
-
-    def cycle_check(node):
-        if self.nextNode==self.value:
-            return True
-        else:
-            return False
-
-
 class Node1():
     def __init__(self,value):
         self.value=value
