@@ -9,7 +9,7 @@ class squese():
     def dequeue(self):
         if not self.outstack:
             while self.instack:
-                self.instack.append(self.outstack.pop())
+                self.outstack.append(self.instack.pop())
         
         return self.outstack.pop()
         
